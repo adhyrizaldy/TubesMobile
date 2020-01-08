@@ -40,7 +40,7 @@ public class Edit_Task extends AppCompatActivity implements DatePickerDialog.OnD
     EditText datedoes;
     String dateFinal;
 
-    Button btnDelete, btnEditTask;
+    Button btnDelete, btnEditTask,btnCancel;
     DatabaseReference reference;
 
 
@@ -62,6 +62,7 @@ public class Edit_Task extends AppCompatActivity implements DatePickerDialog.OnD
 
         btnEditTask = findViewById(R.id.btnEditTask);
         btnDelete = findViewById(R.id.btnDelete);
+        btnCancel =findViewById(R.id.btnCancel);
         dateFinal = todayDateString();
         Date your_date = new Date();
         Calendar cal = Calendar.getInstance();
@@ -135,7 +136,13 @@ public class Edit_Task extends AppCompatActivity implements DatePickerDialog.OnD
                 });
             }
         });
-
+        btnCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(Edit_Task.this,MainActivity.class);
+                startActivity(a);
+            }
+        });
     }
 
 

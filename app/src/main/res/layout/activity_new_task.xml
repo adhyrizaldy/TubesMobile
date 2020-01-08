@@ -45,6 +45,7 @@
         android:background="@drawable/bgitemdoes"
         android:orientation="vertical"
         android:paddingBottom="22dp"
+        android:theme="@style/ToolbarTheme"
         android:paddingTop="22dp">
 
         <LinearLayout

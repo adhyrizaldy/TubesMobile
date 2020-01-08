@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bgitemdoes"
         android:orientation="vertical"
+        android:theme="@style/ToolbarTheme"
         android:paddingBottom="22dp"
         android:paddingTop="22dp">
 
@@ -147,7 +148,7 @@
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="20dp"
-        android:text="Save Update"
+        android:text="Simpan Update"
         android:textColor="#FFF"
         android:textAllCaps="false"
         android:background="@drawable/bgbtncreate"
@@ -160,12 +161,24 @@
         android:layout_marginRight="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="14dp"
-        android:text="Delete"
+        android:text="Hapus"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:background="@drawable/bgbtncreate"
+        android:textSize="22sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp" />
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="14dp"
+        android:text="Batal"
         android:textColor="#AFAFAF"
         android:textAllCaps="false"
         android:background="@drawable/bgbtncancel"
         android:textSize="22sp"
-
         android:layout_width="match_parent"
         android:layout_height="55dp" />
 

@@ -50,17 +50,17 @@
             </LinearLayout>
 
             <Button
-                android:layout_marginTop="45dp"
-                android:layout_marginLeft="95dp"
                 android:id="@+id/btnAddNew"
-                android:theme="@style/ToolbarTheme"
-                android:text="+"
-                android:background="@drawable/bgbtnnew"
-                android:textSize="35sp"
-                android:textColor="#FFF"
-                android:textAlignment="center"
                 android:layout_width="52dp"
-                android:layout_height="52dp" />
+                android:layout_height="52dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/bgbtnnew"
+                android:text="+"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="35sp"
+                android:theme="@style/ToolbarTheme" />
 
         </LinearLayout>
 
